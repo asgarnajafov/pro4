@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 70px;
+    width: 96%;
+    margin: auto;
+    padding: auto;
+    margin-top: 10px;
+    background-color: brown;  
+    margin-bottom: 15px; 
+}
+header .left{}
+header .left img{
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+header .right{}
+header .right nav{
+    width: 40%;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    background-color: rgb(255, 0, 0);
+}
+/* center */
+.center{
+    height: auto;
+    width: 96%;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center .boxone{
+    height: 150px;
+    width: 190px;
+    background-color: red;
+    display: inline-block;
+    float: left;
+    margin-bottom: 10px;
+}
+.a{
+    margin-left: 5% ;
+    margin-right: 5%;
+}    
+/* boxes */
+
+.up {
+    height: auto;
+    width: 96%;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 5.3%;
+}
+.up .boxone{
+    height: 250px;
+    width: 376px;
+    background-color: rgb(255, 81, 0);
+    display: inline-block;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.b{
+    margin-left: 20px ;
+    margin-right: 20px;
+}
+/* footer */
+footer{
+    width: 96%;
+    height: 50px;
+    margin-left: 2%;
+    background-color: rgb(133, 133, 133);
+    clear: both;  
+}
